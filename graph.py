@@ -7,7 +7,7 @@ day_offer = np.arange(1, len(end_price) + 1, 1)
 
 
 #Настрйока ввывода графика(Qt5, wxPython, Tkinter)
-matplotlib.use('Qt5Agg')# Использую wxPython
+matplotlib.use('Qt5Agg')# Использую PyQT5
 print(matplotlib.get_backend())
 fig = plt.figure(figsize=(6, 4))
 
