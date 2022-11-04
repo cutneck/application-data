@@ -28,7 +28,7 @@ max_loc1 = MaxNLocator(40)
 
 # Гистограмма
 ax1 = plt.subplot(1,2,1) # Создание осей координат
-ax1.set(xlim=(0, count_day_offer + 1), ylim=(9500, 25000)) # Устанавливает границиные значения
+ax1.set(xlim=(0, count_day_offer + 1), ylim=(9500, 25000)) # Устанавливает граничиные значения
 plt.yticks(np.arange(9000, int(max(end_price)+ delta),10), size=10) 
 ax1.bar(day_offer, end_price)
 ax1.xaxis.set_major_locator(x_ml1)
